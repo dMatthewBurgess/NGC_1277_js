@@ -1,7 +1,11 @@
 // Write Your JavaScript Code Here
-var personName = "Matthew"
+var personName = "Matthew";
 var pets = "1"
-var funFact = "i like to shoot guns"
+var funFact = " I like to shoot guns"
+
+console.log("My name is " + personName)
+console.log("I have " + pets + " pet")
+console.log("fun fact:" + funFact)
 
 personName = "John"
 pets = "2"
