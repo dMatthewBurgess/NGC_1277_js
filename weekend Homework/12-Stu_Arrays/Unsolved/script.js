@@ -10,5 +10,9 @@ console.log("Welcome to the class " + studentArray[2]);
 console.log("Welcome to the class " + studentArray[3]);
 console.log("Welcome to the class " + studentArray[4]);
 
-studentArray.shift("Zed");
+studentArray[0] = "Zed";
 console.log(studentArray);
+
+if(studentArray[0] === "Zed") [
+    console.log(studentArray[0] + " is in class!")
+]
